@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Dynamic-computer/static/css/main.454207aa.css",
+    "main.js": "/Dynamic-computer/static/js/main.f7b6e403.js",
+    "static/media/cap.png": "/Dynamic-computer/static/media/cap.2650e68e8caf3c793a30.png",
+    "static/media/frontpage2.png": "/Dynamic-computer/static/media/frontpage2.843a84b210b532d05778.png",
+    "static/media/d6.jpg": "/Dynamic-computer/static/media/d6.0840721a698264968569.jpg",
+    "static/media/d2.jpg": "/Dynamic-computer/static/media/d2.bf1dfc610ff79c28e362.jpg",
+    "static/media/d1.jpg": "/Dynamic-computer/static/media/d1.5db61230628d1437a7f6.jpg",
+    "static/media/d4.jpg": "/Dynamic-computer/static/media/d4.2cf0835e636cc77456cb.jpg",
+    "static/media/about.png": "/Dynamic-computer/static/media/about.b086115c3dcf09fdcb2c.png",
+    "static/media/d5.jpg": "/Dynamic-computer/static/media/d5.963b3c53eebb3664a4e1.jpg",
+    "static/media/d3.jpg": "/Dynamic-computer/static/media/d3.f3040833de5ef49e1810.jpg",
+    "index.html": "/Dynamic-computer/index.html",
+    "main.454207aa.css.map": "/Dynamic-computer/static/css/main.454207aa.css.map",
+    "main.f7b6e403.js.map": "/Dynamic-computer/static/js/main.f7b6e403.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.454207aa.css",
+    "static/js/main.f7b6e403.js"
+  ]
+}
