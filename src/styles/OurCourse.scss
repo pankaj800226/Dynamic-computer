@@ -1,0 +1,51 @@
+.OurCourse {
+  box-shadow: 0 0px 10px -1px rgb(149, 148, 148), inset 0 0 rgba(19, 36, 54, 0);
+  gap: 10px;
+  padding: 10px;
+  margin: 8px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  // transition: all 0.5s;
+  &:hover {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg);
+    transform-style: preserve-3d;
+  }
+  >h3{
+    font-size: 17px;
+  }
+  > img {
+    width: 100%;
+    height: 40vh;
+    cursor: pointer;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  > a {
+    background-color: #581558;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    outline: 0;
+    border: 0;
+    letter-spacing: 2px;
+    transition: all 0.5s;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(218, 27, 65);
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .OurCourse {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

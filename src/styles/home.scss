@@ -1,0 +1,186 @@
+// Home start
+.home {
+  margin-top: 11px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .home_text {
+    color: #222f5d;
+    > h1 {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 50px;
+      width: 600px;
+      > span {
+        color: #00c5e7;
+      }
+    }
+
+    > p {
+      font-size: 1.1rem;
+      margin-left: 6px;
+      margin-top: 1rem;
+      font-weight: 300;
+      letter-spacing: 2px;
+    }
+
+    button {
+      align-items: center;
+      background-color: #581558;
+      border-radius: 5px;
+      box-shadow: 1px 0px 10px -1px rgb(41, 40, 40), inset 0 0 rgba(19, 36, 54, 0);
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-flex;
+      flex: 1 1 auto;
+      font-family: Inter, sans-serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      justify-content: center;
+      line-height: 1;
+      margin: 0;
+      outline: none;
+      padding: 20px 30px;
+      text-align: center;
+      text-decoration: none;
+      transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
+      white-space: nowrap;
+      border: 0;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      margin-top: 1rem;
+
+      &:hover {
+        box-shadow: #fc0000 0 0 0 3px, transparent 0 0 0 0;
+      }
+    }
+  }
+  > img {
+    cursor: pointer;
+    width: 40%;
+    margin-top: 2rem;
+    transition: 0.5s ease;
+  }
+
+  > img:hover {
+    transform: translate(-5px, -10px);
+  }
+}
+//home end
+
+// Courses categorie
+.CourseCategory_text {
+  margin-top: 6rem;
+  text-align: center;
+
+  > p {
+    background-color: #f1f1f1;
+    color: #222f5d;
+    display: inline-block;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.85;
+  }
+
+  > h1 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+    color: #222f5d;
+    letter-spacing: 2px;
+  }
+}
+
+.course_details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+//emd
+
+// course_skills_text
+.course_text {
+  text-align: center;
+  margin-top: 2rem;
+
+  > h3 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+    font-weight: 300;
+    color: #222f5d;
+  }
+}
+
+.course_skills_text {
+  text-align: center;
+  margin-top: 5rem;
+
+  > h1 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+    color: #ffffff;
+    letter-spacing: 2px;
+  }
+  > p {
+    background-color: #f1f1f1;
+    color: #222f5d;
+    display: inline-block;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.85;
+  }
+}
+//end
+
+//.our_course
+.our_course {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+//end
+@media screen and (max-width: 768px) {
+  .home {
+    // overflow: hidden;
+    flex-direction: column-reverse;
+    > img {
+      width: 80%;
+    }
+    .home_text {
+      text-align: center;
+      > h1 {
+        font-size: 2rem;
+        width: 100%;
+      }
+      button {
+        margin-top: 2rem;
+      }
+    }
+  }
+  .courses_categay {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .courses {
+      width: 95%;
+    }
+  }
+
+  .our_course {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .course_details {
+    flex-direction: column;
+  }
+}

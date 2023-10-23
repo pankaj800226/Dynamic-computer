@@ -1,0 +1,75 @@
+.Our_Instructor_text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  >p{
+    letter-spacing: 1px;
+    background-color: #f1f1f1;
+    color: #222f5d;
+    display: inline-block;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.85;
+  }
+  >h1{
+    color: #222f5d;
+    letter-spacing: 2px;
+    margin-top: 10px;
+  }
+ 
+}
+.instructor{
+  color: #222f5d;
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  >h3{
+    margin-top: 12px;
+    font-size: 27px;
+    letter-spacing: 2px;
+  }
+ >img{
+  cursor: pointer;
+  margin: 20px;
+  width: 90%;
+  transition: 0.5s ease;
+  &:hover {
+    transform: translate(-5px, -10px);
+  }
+ }
+ >h2{
+  margin-top: 10px;
+  letter-spacing: 1px;
+  background-color: #f1f1f1;
+  color: #222f5d;
+  display: inline-block;
+  padding: 3px 15px;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.85;
+ }
+ >p{
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: cursive;
+ }
+}
+@media screen and (max-width: 768px){
+  .instructor{
+   
+   >img{
+    cursor: pointer;
+    margin: 20px;
+    width: 50%;
+   }
+  }
+}

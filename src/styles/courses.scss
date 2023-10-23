@@ -1,0 +1,37 @@
+.cources_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  flex-direction: column;
+
+  > p {
+    background-color: #f1f1f1;
+    color: #222f5d;
+    display: inline-block;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.85;
+  }
+  >h1{
+    color: #222f5d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+}
+.courses{
+  flex-wrap: wrap;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 768px){
+   .courses{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+}

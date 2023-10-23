@@ -1,0 +1,19 @@
+.footer {
+  background-color: #0f0e0e;
+  margin-top: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  >p{
+    padding: 20px;
+    letter-spacing: 1.2px;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+
+  >h4{
+    color: #fff;
+  }
+}

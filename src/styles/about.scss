@@ -1,0 +1,39 @@
+.pic {
+  > img {
+    height: 90vh;
+  }
+
+  > p {
+    margin-top: 1.2rem;
+    font-size: 20px;
+  }
+}
+
+.about_heading {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  >h2{
+    margin-top: 15px;
+    letter-spacing: 2px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pic {
+    > img {
+      height: 60vh;
+    }
+
+    > p {
+      margin-top: 1.2rem;
+    }
+  }
+
+  .about_heading {
+    >h1{
+      text-align: center;
+    }
+  }
+}
